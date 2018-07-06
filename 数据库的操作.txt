@@ -5,29 +5,29 @@ cd Web
 cd mysql-5.0.67-win32
 cd bin
 mysql --console
-´ò¿ªÁíÒ»¸ö´°¿Ú£º
+æ‰“å¼€å¦ä¸€ä¸ªçª—å£ï¼š
 d:
 cd Web
 cd mysql-5.0.67-win32
 cd bin
 mysql -h localhost -u root -p
 
-Êı¾İ¿âµÄ±íµÄ²Ù×÷£º
-ÏÔÊ¾ËùÓĞµÄÊı¾İ¿â£ºshow databases
-´´½¨Êı¾İ¿â£ºcreate database elouser
-Ê¹ÓÃÊı¾İ¿â£ºuse elouser
-ÏÔÊ¾±í£ºshow tables
-´´½¨±í£ºcreate table users(id int primary key auto increase,
+æ•°æ®åº“çš„è¡¨çš„æ“ä½œï¼š
+æ˜¾ç¤ºæ‰€æœ‰çš„æ•°æ®åº“ï¼šshow databases
+åˆ›å»ºæ•°æ®åº“ï¼šcreate database elouser
+ä½¿ç”¨æ•°æ®åº“ï¼šuse elouser
+æ˜¾ç¤ºè¡¨ï¼šshow tables
+åˆ›å»ºè¡¨ï¼šcreate table users(id int primary key auto increase,
               name char(20),
 	password char(20),
 	score double,
 	rank char(20)
 	);
-¶Ô±íµÄ²éÑ¯£ºselect * from users;
+å¯¹è¡¨çš„æŸ¥è¯¢ï¼šselect * from users;
 select score 
 from users
 where score=68.5;
 select score
 from users
 where score>100;
-±íµÄ²åÈë£ºinsert into users values(olver,123456,84.6,d);
+è¡¨çš„æ’å…¥ï¼šinsert into users values(olver,123456,84.6,d);
