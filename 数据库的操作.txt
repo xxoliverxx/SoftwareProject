@@ -1,0 +1,33 @@
+cd..
+cd..
+d:
+cd Web
+cd mysql-5.0.67-win32
+cd bin
+mysql --console
+打开另一个窗口：
+d:
+cd Web
+cd mysql-5.0.67-win32
+cd bin
+mysql -h localhost -u root -p
+
+数据库的表的操作：
+显示所有的数据库：show databases
+创建数据库：create database elouser
+使用数据库：use elouser
+显示表：show tables
+创建表：create table users(id int primary key auto increase,
+              name char(20),
+	password char(20),
+	score double,
+	rank char(20)
+	);
+对表的查询：select * from users;
+select score 
+from users
+where score=68.5;
+select score
+from users
+where score>100;
+表的插入：insert into users values(olver,123456,84.6,d);
