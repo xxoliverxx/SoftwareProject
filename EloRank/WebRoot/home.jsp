@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<title>Login Emp</title>
+		<title>home Emp</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="stylesheet" type="text/css"
 			href="css/style.css" />
@@ -20,7 +20,7 @@
 						</div>
 						<div id="topheader">
 							<h1 id="title">
-								<a href="#">登录/注册</a>
+								<a href="#">ELO</a>
 							</h1>
 						</div>
 						<div id="navigation">
@@ -30,32 +30,25 @@
 					<p id="whereami">
 					</p>
 					<h1>
-						登录/注册用户信息:
+						欢迎使用ELO排名匹配算法
 					</h1>
 					<form action="add" method="post">
 						<table cellpadding="0" cellspacing="0" border="0"
 							class="form_table">
 							<tr>
-								<td valign="middle" align="right">
-									用户名:
-								</td>
-								<td valign="middle" align="left">
-									<input type="text" class="inputgri" name="name" />
-								</td>
+								<p>
+									<input type="submit" class="button" value="个人比赛排名" />
+								</p>
 							</tr>
 							<tr>
-								<td valign="middle" align="right">
-									密码:
-								</td>
-								<td valign="middle" align="left">
-									<input type="text" class="inputgri" name="password" />
-								</td>
+								<p>
+									<input type="submit" class="button" value="联赛匹配排名" />
+								</p>
+								
 							</tr>
 							
 						</table>
-						<p>
-							<input type="submit" class="button" value="提交" />
-						</p>
+						
 					</form>
 				</div>
 			</div>
